@@ -1,6 +1,6 @@
 import React from "react";
 
-// import LoginForm from "../components/LoginForm";
+import LoginForm from "../components/LoginForm";
 import RegisterForm from "../components/RegisterForm";
 
 function LoginPage(): React.JSX.Element {

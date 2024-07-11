@@ -1,16 +1,14 @@
 import { StatusBar } from "expo-status-bar";
-import { ImageBackground, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import { COLORS } from "./styles/styles";
 import LoginPage from "./screens/LoginPage";
 
 export default function App(): React.JSX.Element {
   return (
-    <ImageBackground>
-      <View style={styles.container}>
-        <StatusBar />
-        <LoginPage />
-      </View>
-    </ImageBackground>
+    <View style={styles.container}>
+      <StatusBar />
+      <LoginPage />
+    </View>
   );
 }
 
