@@ -7,13 +7,19 @@ type Props = {
 };
 
 export default function Input({ placeholderText }: Props): React.JSX.Element {
-  return <TextInput placeholder={placeholderText} style={styles.input} />;
+  return (
+    <TextInput
+      placeholder={placeholderText}
+      style={styles.input}
+      placeholderTextColor={COLORS.Neutral800}
+    />
+  );
 }
 
 const styles = StyleSheet.create({
   input: {
     backgroundColor: COLORS.Neutral300,
-    color: "#fff",
+    color: COLORS.Neutral800,
     borderRadius: 4,
     padding: 8,
     margin: 8,

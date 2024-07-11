@@ -5,12 +5,14 @@ import Button from "./ui/Button";
 
 export default function RegisterForm() {
   return (
-    <View>
-      <Input placeholderText="Email" />
-      <Input placeholderText="Confirm email" />
-      <Input placeholderText="Password" />
-      <Input placeholderText="Confirm password" />
+    <>
+      <View>
+        <Input placeholderText="Email" />
+        <Input placeholderText="Confirm email" />
+        <Input placeholderText="Password" />
+        <Input placeholderText="Confirm password" />
+      </View>
       <Button onPress={() => console.log("pressing")}>Register</Button>
-    </View>
+    </>
   );
 }

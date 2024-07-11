@@ -6,11 +6,9 @@ import Input from "./ui/Input";
 
 export default function LoginForm(): React.JSX.Element {
   return (
-    <View>
-      <View style={styles.inputContainer}>
-        <Input placeholderText="Email" />
-        <Input placeholderText="Password" />
-      </View>
+    <View style={styles.inputContainer}>
+      <Input placeholderText="Email" />
+      <Input placeholderText="Password" />
       <Button onPress={() => console.log("pressing")}>Log in</Button>
     </View>
   );
